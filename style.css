@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+label, input, button {
+    margin: 5px;
+    display: block;
+}
+
+#addButton {
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.list-container {
+    margin-top: 20px;
+}
+
+.query-result-button {
+    margin-left: 10px;
+    padding: 3px 6px;
+    font-size: 0.9em;
+}

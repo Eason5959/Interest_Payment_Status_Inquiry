@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <label for="plateNumber">車牌號碼:</label>
+        <input type="text" id="plateNumber" name="plateNumber">
+
+        <label for="oldCaseNumber">舊案案號:</label>
+        <input type="text" id="oldCaseNumber" name="oldCaseNumber">
+
+        <label for="customerID">客戶ID:</label>
+        <input type="text" id="customerID" name="customerID">
+
+        <label for="customerName">客戶姓名:</label>
+        <input type="text" id="customerName" name="customerName">
+
+        <button id="addButton">新增</button>
+    </div>
+
+    <div class="list-container">
+        <h3>查詢項目:</h3>
+        <ul id="queryList">
+            <!-- Items will be added here -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
