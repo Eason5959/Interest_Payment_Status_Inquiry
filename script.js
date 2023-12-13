@@ -10,6 +10,10 @@ document.getElementById('addButton').addEventListener('click', function() {
 
         // Create the Query Result button
         var queryButton = document.createElement('button');
+        queryButton.addEventListener('click', function() {
+        // Open the new HTML page in a new tab/window
+        window.open('queryResults.html', '_blank');
+        });
         queryButton.textContent = '查詢結果';
         queryButton.classList.add('query-result-button');
         // Add event listener for the button
